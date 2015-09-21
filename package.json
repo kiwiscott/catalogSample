@@ -1,0 +1,28 @@
+{
+  "name": "catalog",
+  "version": "1.0.0",
+  "description": "Catalog example showing extensions to existing catalog",
+  "main": "index.js",
+  "scripts": {
+    "test": "set NODE_ENV=test&&node ./node_modules/mocha/bin/mocha --require should --reporter progress --ui bdd --recursive --timeout 7500",
+    "test-debug": "mocha  --debug-brk --require should --reporter spec --ui bdd --recursive"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "log4js": "^0.6.26",
+    "moment": "*",
+    "morgan": "^1.6.1",
+    "mssql": "*",
+    "mustache": "*",
+    "promise": "^7.0.4",
+    "q": "^1.4.1"
+  },
+  "author": "kiwiscott",
+  "license": "ISC",
+  "devDependencies": {
+    "supertest": "^1.0.1",
+    "mocha": "*",
+    "should": ">= 0.0.1"
+  }
+}
