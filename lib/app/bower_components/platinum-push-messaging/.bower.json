@@ -43,6 +43,6 @@
     "commit": "6678ce01c30aa3ce513626c2ccd22224624890ab"
   },
   "_source": "git://github.com/PolymerElements/platinum-push-messaging.git",
-  "_target": "~1.0.0",
+  "_target": "^1.0.0",
   "_originalSource": "PolymerElements/platinum-push-messaging"
 }

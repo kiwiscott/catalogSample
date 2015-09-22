@@ -35,6 +35,6 @@
     "commit": "d3acfb9770c42e76c00a9c12abdefb627a123999"
   },
   "_source": "git://github.com/visionmedia/page.js.git",
-  "_target": "~1.6.3",
+  "_target": "*",
   "_originalSource": "visionmedia/page.js"
 }
